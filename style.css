@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+body{
+    min-height: 100vh;
+    background: grey;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a:hover{
+    background: black;
+}
+
+.galerie{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    width: 300px;
+    align-items: start;
+    position: relative;
+    top: 150px;
+    left: 0;
+}
+
+.galerie .popis{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+.galerie img{
+    width: 100%;
+    height: auto;
+}
+
+.obrazek{
+    position: relative;
+}
+
+.textbox{
+    position: relative;
+    font-family: cursive;
+    font-size: 30px;
+    bottom: 200px;
+    border: black;
+    border-radius: 2px;
+}
+
